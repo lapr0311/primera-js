@@ -79,23 +79,23 @@ function modelosJeep() {
                 precios = 18000000;
                 alert("el valor de tu auto sin IVA es " + precios);
                 while (cicloColor != "esc") {
-                    alert("tengo estos colores disponibles: verde,gris,rojo");
+                    alert("tengo estos colores disponibles: negro,blanco,azul");
                     cicloColor = prompt("que Color deseas?");
 
-                    if (cicloColor == "verde") {
-                        confirm("prefecto tu color elegido a sido el verde");
+                    if (cicloColor == "negro") {
+                        confirm("prefecto tu color elegido a sido el negro");
                         color = cicloColor;
                         cicloColor = "esc";
                     }
-                    else if (cicloColor == "gris") {
-                        confirm("prefecto tu color elegido a sido el gris");
+                    else if (cicloColor == "blanco") {
+                        confirm("prefecto tu color elegido a sido el blanco");
                         color = cicloColor;
                         cicloColor = "esc";
 
 
                     }
-                    else if (cicloColor == "rojo") {
-                        confirm("prefecto tu color elegido a sido el rojo");
+                    else if (cicloColor == "azul") {
+                        confirm("prefecto tu color elegido a sido el azul");
                         color = cicloColor;
                         cicloColor = "esc";
 
@@ -125,7 +125,7 @@ function modelosJeep() {
                 precios = 23000000;
                 alert("el valor de tu auto sin IVA es " + precios);
                 while (cicloColor != "esc") {
-                    alert("tengo estos colores disponibles: verde,gris,rojo");
+                    alert("tengo estos colores disponibles: verde,amarillo,rojo");
                     cicloColor = prompt("que Color deseas?");
 
                     if (cicloColor == "verde") {
@@ -133,8 +133,8 @@ function modelosJeep() {
                         color = cicloColor;
                         cicloColor = "esc";
                     }
-                    else if (cicloColor == "gris") {
-                        confirm("prefecto tu color elegido a sido el gris");
+                    else if (cicloColor == "amarillo") {
+                        confirm("prefecto tu color elegido a sido el amarillo");
                         color = cicloColor;
                         cicloColor = "esc";
 
@@ -170,16 +170,16 @@ function modelosJeep() {
                 precios = 52000000;
                 alert("el valor de tu auto sin IVA es " + precios);
                 while (cicloColor != "esc") {
-                    alert("tengo estos colores disponibles: verde,gris,rojo");
+                    alert("tengo estos colores disponibles: cafe,negro,rojo");
                     cicloColor = prompt("que Color deseas?");
 
-                    if (cicloColor == "verde") {
-                        confirm("prefecto tu color elegido a sido el verde");
+                    if (cicloColor == "cafe") {
+                        confirm("prefecto tu color elegido a sido el cafe");
                         color = cicloColor;
                         cicloColor = "esc";
                     }
-                    else if (cicloColor == "gris") {
-                        confirm("prefecto tu color elegido a sido el gris");
+                    else if (cicloColor == "negro") {
+                        confirm("prefecto tu color elegido a sido el negro");
                         color = cicloColor;
                         cicloColor = "esc";
 
